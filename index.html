@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="script.js"></script>
     <title>Ndukuba Chidinma</title>
 </head>
 <body>
+
     <header>
        <div class="container">
         <nav>
-            <img src="images/logo.png" alt="logo" class="logo" height="100px" width="200px">
+            <img src="images/logo.png" alt="logo" class="logo" >
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact me</a></li>
             </ul>
@@ -25,5 +28,53 @@
         </div>
        </div> 
     </header>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/IMG_0244.JPG" alt="my-photo">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum ad tempora qui illum dolorem doloremque! Corrupti, dignissimos. Aperiam eos harum eveniet minus accusamus quasi o
+                    ptio. Itaque rerum vero at et.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Web App Development</li>
+                            <li><span>Makeup Artist</span><br>All Type of glam looks</li>
+                            <li><span>Food Scientist</span><br>Food Microbiology, Chemistry and Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - current</span><br>Web App Developer</li>
+                            <li><span>2015 - current</span><br>Makeup Artist at Makeup By ThatChidinma</li>
+                            <li><span>Food Scientist</span><br>Quality and Quantity Survery Inspector</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - current</span><br>Software Engineering program at Alx</li>
+                            <li><span>2018 - 2023</span><br>Bsc in Food Science and Technology from Enugu State University of Science and Technology</li>
+                            <li><span>2013 - 2016</span><br>Senior Secondary School Certificate from Federal Science and Technical College, Yaba</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+    
+            </div>
+        </div>
+    </div>
 </body>
 </html>
