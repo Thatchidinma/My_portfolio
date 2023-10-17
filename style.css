@@ -407,7 +407,7 @@ color: #fff;
     header{
         background-image: url(images/header-image-mq2.jpg);
         background-position:center;
-        /* background-attachment: fixed; */
+        background-attachment: fixed; 
          background-size: auto;
          background-repeat: no-repeat;
     }
