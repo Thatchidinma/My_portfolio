@@ -11,9 +11,9 @@ html{
 }
 
 body{
-    background-color: #000800;
-    /*background-color: #313030;*/
-    /*background-color: #747272;*/
+    background: #000800;
+    /*background: #313030;*/
+    /*background: #747272;*/
     color: #fff;
 }
 /* HOME PAGE*/
@@ -86,7 +86,7 @@ nav ul li a:hover::after{
 
 .header-text h1 span{
     color: #ff004f;
-    /*background-color: #fff;*/
+    /*background: #fff;*/
     text-shadow: 0 0 px #fff, 0 0 5px #ff004f;
     /*border: 3px solid #ff004f;*/
 }
@@ -327,7 +327,7 @@ nav ul li a:hover::after{
     display: inline-block;
     height: 30px;
     width: 30px;
-    background-color: #ababab;
+    background: #ababab;
     margin-right: 15px;
     font-size: 20px;
     border-radius: 10px;
@@ -371,4 +371,32 @@ form input, form textarea{
     font-size: 18px;
     border-radius:6px ;
     color: #fff;
+}
+
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #fff;
+    padding: 14px 50px;
+    border-radius: 6px;
+    color: #fff;
+    background:#262626;
+}
+
+.btn:hover{
+    background: rgb(227, 63, 145);
+}
+
+#btn-back-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+padding: 10px;
+background: rgba(125, 123, 123, 0.429);
+margin: 50px auto;
+width: fit-content;
+border: 1px solid #fff;
+border-radius: 6px;
+color: #fff;
 }
