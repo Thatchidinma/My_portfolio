@@ -406,5 +406,9 @@ color: #fff;
 @media only screen and (max-width: 600px){
     header{
         background-image: url(images/header-image-mq2.jpg);
+        background-position:center;
+        /* background-attachment: fixed; */
+         background-size: auto;
+         background-repeat: no-repeat;
     }
 }
