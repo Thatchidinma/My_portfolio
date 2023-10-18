@@ -39,6 +39,10 @@ nav{
     flex-wrap: nowrap;
 }
 
+nav .fa-solid{
+    display: none;
+}
+
 .logo{
     width: 140px;
     height: 80px;
@@ -77,6 +81,7 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 1em;
+    text-shadow: 2px 2px #000;
 }
 
 .header-text h1{
@@ -422,13 +427,27 @@ color: #fff;
         font-size: 0.5em;
     }
 
-    header .container{
+    /*header .container{
         padding: 10px 0;
    
-    }
+    }*/
 
     .header-text h1 span{
         color: #ff004f;
         text-shadow: 2px 2px #000;
     }
+
+    nav .fa-solid{
+        display: block;
+        font-size: 1.5em;
+    }
+
+   /* nav .fa-bars{
+        padding: 15px;
+    }*/
+
+    nav ul{
+        display: none;
+    }
+
 }
