@@ -408,7 +408,7 @@ color: #fff;
 }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 550px){
     header{
         background-image: url(images/header-image-mq3.jpg);
         background-attachment: unset;
@@ -447,7 +447,27 @@ color: #fff;
     }*/
 
     nav ul{
-        display: none;
+       /* display: none;*/
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -150px;
+        width: 150px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
     }
 
 }

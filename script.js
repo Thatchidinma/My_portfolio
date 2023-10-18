@@ -1,7 +1,6 @@
 let tablinks = document.getElementsByClassName("tab-links");
 let tabcontents = document.getElementsByClassName("tab-contents");
 
-
 function opentab(tabname){
     for(tablink of tablinks){
         tablink.classList.remove("active-link");
@@ -14,9 +13,17 @@ function opentab(tabname){
 }
 
 window.onscroll = function() {
-    if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20 ) {
+    if (document.documentElement.scrollTop > 400 || document.body.scrollTop > 400) {
       document.getElementById("btn-back-to-top").hidden = false;
     } else {
       document.getElementById("btn-back-to-top").hidden = true;
     }
   };
+
+  function openmenu(){
+    document.getElementById("sidemenu").style.right = "0";
+  }
+
+  function closemenu(){
+    document.getElementById("sidemenu").style.right = "-150";
+  }

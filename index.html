@@ -14,15 +14,15 @@
        <div class="container">
         <nav>
             <img src="images/logo.png" alt="logo" class="logo" >
-            <ul>
+            <ul id="sidemenu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contactme">Contact me</a></li>
-                <i class="fa-solid fa-xmark"></i>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
             <p>Ndukuba. N. Chidinma</p>
@@ -35,12 +35,13 @@
         <div class="container">
             <div class="row">
                 <div class="about-col1">
-                    <img src="images/IMG_0244.JPG" alt="my-photo">
+                    <img src="images/about3.jpg" alt="my-photo">
                 </div>
                 <div class="about-col2">
                     <h1 class="sub-title">About me</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum ad tempora qui illum dolorem doloremque! Corrupti, dignissimos. Aperiam eos harum eveniet minus accusamus quasi o
-                    ptio. Itaque rerum vero at et.</p>
+                    <p>Hi, my name is Ndukuba Nneoma Chidinma. I am an all round creative, i love to explore, learn, create and most importantly solve problem.
+                        I am a Web developer, head makeup artist and creative director at Makeup by Thatchidinma and also a food scientist with a bachelors degree in food Science and Technology. I am a smart worker, great learner and passion driven idividual and I very much look forward to working with you
+                    </p>
                     <div class="tab-title">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
