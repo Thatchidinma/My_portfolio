@@ -411,7 +411,18 @@ color: #fff;
 
     .header-text{
         margin-top: 100%;
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        padding:10px 5px;
+        text-align: center;
     }
 
-    
+    .header-text div{
+        font-size: 0.5em;
+    }
+
+    header .container{
+        padding: 10px 0;
+    }
+
 }
