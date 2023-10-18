@@ -85,9 +85,9 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color: #ff004f;
+    color: #000800;
     /*background: #fff;*/
-    text-shadow: 0 0 px #fff, 0 0 5px #ff004f;
+    text-shadow: 2px 2px 5px #ff004f;
     /*border: 3px solid #ff004f;*/
 }
 
@@ -128,7 +128,7 @@ nav ul li a:hover::after{
 }
 
 .tab-links{
-    margin-right: 50px;
+    margin-right: 20px;
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
@@ -405,7 +405,7 @@ color: #fff;
 /* MEDIA QUERIES */
 @media only screen and (max-width: 600px){
     header{
-        background-image: url(images/header-image-mq2.jpg);
+        background-image: url(images/header-image-mq3.jpg);
         background-attachment: unset;
     }
 
@@ -415,6 +415,7 @@ color: #fff;
         width: 100%;
         padding:10px 5px;
         text-align: center;
+        text-shadow: 2px 2px #000;
     }
 
     .header-text div{
@@ -423,6 +424,10 @@ color: #fff;
 
     header .container{
         padding: 10px 0;
+   
     }
 
+    .header-text h1 span{
+        color: #ff004f;
+    }
 }
