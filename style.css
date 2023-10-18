@@ -408,4 +408,10 @@ color: #fff;
         background-image: url(images/header-image-mq2.jpg);
         background-attachment: unset;
     }
+
+    .header-text{
+        margin-top: 100%;
+    }
+
+    
 }
