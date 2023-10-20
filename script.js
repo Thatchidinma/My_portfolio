@@ -1,6 +1,7 @@
 let tablinks = document.getElementsByClassName("tab-links");
 let tabcontents = document.getElementsByClassName("tab-contents");
 
+
 function opentab(tabname){
     for(tablink of tablinks){
         tablink.classList.remove("active-link");
@@ -18,6 +19,19 @@ window.onscroll = function() {
     } else {
       document.getElementById("btn-back-to-top").hidden = true;
     }
+    if (window.matchMedia( '( max-width: 550px )' ).matches){
+      if (document.documentElement.scrollTop > 10 || document.body.scrollTop > 10){
+        document.getElementById("navbar").style.position = "fixed";
+        document.getElementById("navbar").style.background = "rgba(255, 0, 79, 0.8)";
+        document.getElementById("navbar").style.width = "100%";
+      } else {
+        document.getElementById("navbar").style.background = "none";
+        document.getElementById("navbar").style.position = "unset";
+      }
+    } else {
+      document.getElementById("navbar").style.position = "unset";
+      document.getElementById("navbar").style.background = "none";
+    }
   };
 
   function openmenu(){
@@ -25,5 +39,6 @@ window.onscroll = function() {
   }
 
   function closemenu(){
-    document.getElementById("sidemenu").style.right = "-150";
+    document.getElementById("sidemenu").style.right = "-150px";
   }
+
