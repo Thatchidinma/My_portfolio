@@ -391,9 +391,9 @@ form input, form textarea{
     background:#262626;
 }
 
-.btn:hover{
+/*.btn:hover{
     background: rgb(227, 63, 145);
-}
+}*/
 
 #btn-back-to-top {
 position: fixed;
